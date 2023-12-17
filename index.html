@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@400;700&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <title>My site</title>
+</head>
+<body>
+<header>
+    <div class="container container-flex">
+        <h1>Robots</h1>
+    
+    <div class="menu-hamburguer">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    </div>
+    <nav>
+        <div class="container">
+        <ul>
+            <li>
+                <a href="#">Sobre</a>
+            </li>
+            <li>
+                <a href="#">Em destaque</a>
+            </li>
+            <li>
+                <a href="#">Promoções</a>
+            </li>
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+</header>
+<div id="carousel-imagens">
+    <img src="engenharia_1.webp" alt="">
+    <img src="engenharia_2.jpeg" alt="">
+    <img src="engenharia_3.jpg" alt="">
+</div>
+
+
+<section id="sobre-a-empresa">
+    <div class="container container-flex">
+        <img src="eng_comput.jpeg" alt="">
+<div>
+    <h2>Sobre a Robots</h2>
+ <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+ <p> Recusandae tempora culpa eligendi a esse quidem, obcaecati, maxime soluta harum consectetur, quia doloribus! Ipsum quas atque sit nemo doloremque consequuntur voluptatem!</p>
+ <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+ <p> Recusandae tempora culpa eligendi a esse quidem, obcaecati, maxime soluta harum consectetur, quia doloribus! Ipsum quas atque sit nemo doloremque consequuntur voluptatem!</p>
+</div>
+</div>
+    </div>
+</section>
+<section class="container">
+   
+    <h2> Em destaque</h2>
+            
+    <ul  class="container-flex" class="lista-cursos">
+        <li ><img id="imagens" src="analise e desenv de sistemas.jpg" alt="
+        ">
+        <h3 > Ciência da Computação</h3>
+        <p> O curso de Ciência da Computação é uma graduação que forma profissionais capazes de desenvolver soluções tecnológicas para as mais diversas áreas.
+         Os estudantes aprendem a projetar e implementar sistemas computacionais.</p>
+         <p >Durante a graduação, eles aprofundam em temas como inteligência artificial, segurança de dados, redes de computadores e banco de dados.
+             O curso tem como objetivo formar profissionais capazes de compreender e resolver problemas complexos, utilizando as mais avançadas tecnologias disponíveis.
+             A demanda por profissionais capacitados em Ciência da Computação é cada vez maior, já que a tecnologia é uma das áreas que mais cresce no mundo. </p>
+            <button type="button" class="botao">Inscrever-se</button>
+            </li>
+            <li class="item-central"><img id="imagens" src="ciencia da comput.jpg" alt="
+                ">
+         <h3> Ciência da Computação</h3>
+        <p> O curso de Ciência da Computação é uma graduação que forma profissionais capazes de desenvolver soluções tecnológicas para as mais diversas áreas.
+          Os estudantes aprendem a projetar e implementar sistemas computacionais.</p>
+        <p> Durante a graduação, eles aprofundam em temas como inteligência artificial, segurança de dados, redes de computadores e banco de dados.
+         O curso tem como objetivo formar profissionais capazes de compreender e resolver problemas complexos, utilizando as mais avançadas tecnologias disponíveis.
+        A demanda por profissionais capacitados em Ciência da Computação é cada vez maior, já que a tecnologia é uma das áreas que mais cresce no mundo. </p>
+        <button type="button" class="botao">Inscrever-se</button>
+         </li>
+        <li class="item-central"><img id="imagens" src="engenharia_1.webp" alt="
+                        ">
+        <h3> Ciência da Computação</h3>
+        <p>  O curso de Ciência da Computação é uma graduação que forma profissionais capazes de desenvolver soluções tecnológicas para as mais diversas áreas.
+        Os estudantes aprendem a projetar e implementar sistemas computacionais.</p>
+        <p> Durante a graduação, eles aprofundam em temas como inteligência artificial, segurança de dados, redes de computadores e banco de dados.
+           O curso tem como objetivo formar profissionais capazes de compreender e resolver problemas complexos, utilizando as mais avançadas tecnologias disponíveisA demanda por profissionais capacitados em Ciência da Computação é cada vez maior, já que a tecnologia é uma das áreas que mais cresce no mundo. </p>
+        <button type="button" class="botao">Inscrever-se</button>
+         </li>
+
+
+            
+
+
+    </ul>
+
+
+</div>
+</section>
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+       $("#carousel-imagens").slick({
+        autoplay:true,
+
+       });
+       $('.menu-hamburguer').click(function(){
+        $('nav').slideToggle();
+    })
+       
+       
+    })
+</script>
+</body>
+</html>
